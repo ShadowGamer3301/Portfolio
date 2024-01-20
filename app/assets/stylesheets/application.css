@@ -1,0 +1,126 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body 
+ {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("/pexels-felix-mittermeier-1205301.jpg");
+ }
+
+ .main-navbar
+ {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    padding-top: 15px;
+    display: flex;
+    z-index: 1;
+ }
+
+ .r-menu
+ {
+   width: 50%;
+   flex: 1;
+   text-align: right;
+ }
+
+ .l-menu
+ {
+    flex: 1;
+    width: 50%;
+ }
+
+ .navbar-link
+ {
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255,255,255);
+    transition: 0.4s;
+    padding-right: 10px;
+ }
+
+ .navbar-link:hover
+ {
+    padding-right: 20px;
+    color: rgb(97, 97, 97);
+    transition: 0.4s;
+ }
+
+ .profile-pic
+ {
+   width: 50px;
+   height: 50px;
+   transition: 0.4s;
+ }
+
+ .profile-pic:hover
+ {
+   transition: 0.4s;
+   width: 60px;
+   height: 60px;
+ }
+
+ .nav-img
+ {
+   height: 50px;
+   width: 50px;
+   margin-left: 20px;
+   padding: 0;
+   border-radius: 5px;
+   vertical-align:middle;
+ }
+
+ 
+ .main-content
+ {
+    color: silver;
+    padding-top: 50px;
+ }
+
+ .container
+ {
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 1.5rem;
+   text-align: center;
+   width: 500px;
+   background-color: black;
+   opacity: 0.8;
+   border-radius: 15px;
+ }
+
+ .wide-container
+ {
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 1.5rem;
+   text-align: center;
+   width: 1200px;
+   background-color: black;
+   opacity: 0.8;
+   border-radius: 15px;
+ }
+
+ .we
+ {
+   margin-top: 20px;
+ }

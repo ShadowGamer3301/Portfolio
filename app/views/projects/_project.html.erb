@@ -1,0 +1,19 @@
+<div id="<%= dom_id project %>">
+  <p>
+    <strong>Title:</strong>
+    <%= project.title %>
+  </p>
+
+  <p>
+    <strong>Description:</strong>
+    <%= project.desc %>
+  </p>
+
+  <p>
+    <% if !project.cover.to_s.strip.empty? %>
+      <strong>Screenshot:</strong>
+      <%= project.cover %>
+    <% end %>
+  </p>
+
+</div>

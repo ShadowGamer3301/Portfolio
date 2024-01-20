@@ -1,0 +1,19 @@
+<div class="main-content">
+<p style="color: green"><%= notice %></p>
+
+<h1 style="text-align:center;">My Projects</h1>
+
+<div id="projects">
+  <% @projects.each do |project| %>
+    <div class="container">
+      <%= render project %>
+      <p>
+        <%= link_to "Show this project", project %>
+      </p>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to "New project", new_project_path %>
+</div>
+
