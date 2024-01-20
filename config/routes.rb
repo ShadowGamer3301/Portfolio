@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get "home/about"
   get "home/skill"
   get "home/workflow"
+  get "home/contact"
 end
